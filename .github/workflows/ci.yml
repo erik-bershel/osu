@@ -150,7 +150,6 @@ jobs:
       - name: Use Xcode 16.4
         run: |
           sudo xcode-select -switch /Applications/Xcode_16.4.app
-          xcodebuild -downloadPlatform iOS
 
       - name: Build
         run: dotnet build -c Debug osu.iOS.slnf
